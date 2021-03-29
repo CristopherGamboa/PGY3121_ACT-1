@@ -43,14 +43,19 @@ body{
     bottom: 0;
 }
 .letra_1{
+    color: aliceblue;
     font-size: large;
+    text-decoration: none;
 }
 .letra_1:hover{
     color: darkgray;
+    text-decoration: none;
 }
 .letra_2{
     margin-top: 50px;
     padding-left: 30%;
+    text-decoration: none;
+    color: aliceblue;
 }
 .letra_3{
     text-align: justify;
