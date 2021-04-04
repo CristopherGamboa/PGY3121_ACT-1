@@ -1,0 +1,72 @@
+body{
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+}
+a{
+    text-decoration: none; 
+}
+.menu_1{
+    background-color: black;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+}
+.menu_2{
+    background-color: blanchedalmond;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    right: 0 ;
+}
+.subm_1{
+    background-color: darkturquoise;
+    width: 95%;
+    height: 25%;
+    position: absolute;
+    top: 0;
+}
+.subm_2{
+    background-color: yellow;
+    width: 95%;
+    height: 25%;
+    position: absolute;
+    top: 25%;
+}
+.subm_3{
+    background-color:orange;
+    width: 95%;
+    height: 25%;
+    position: absolute;
+    bottom: 25%;
+}
+.subm_4{
+    background-color:red;
+    width: 95%;
+    height: 25%;
+    position: absolute;
+    bottom: 0;
+}
+.subm_5{
+    background-color:black;
+    width: 5%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.letra_1{
+    font-size: large;
+    color: aliceblue;
+}
+.letra_1:hover{
+    color: darkgray;
+}
+.letra_2{
+    margin-top: 50px;
+    padding-left: 30%;
+}
+.letra_3{
+    text-align: justify;
+    margin-left: 10%;
+    margin-right:10%;
+}
