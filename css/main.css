@@ -1,3 +1,36 @@
-.carousel-item{
+.carousel-item {
     height: 500px;
+}
+.card {
+    border-radius: 50px;
+    height: 450px;
+    transition: all 0.2s ease;
+}
+.card:hover {
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+    
+}
+.card-img-top{
+    height: 200px;
+    width: 350px;
+}
+.card h5, .card p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img { 
+    width:100%; 
+    z-index: 0; } 
+     
+.text-over-img { 
+   z-index:1; 
+   font-size: 2em;
+   color: aliceblue;
+   text-align: center;
+   margin-top: -100px; 
+} 
+
+.card h5, .card p{
+    color: black;
 }

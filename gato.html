@@ -26,10 +26,10 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-1"></div>
+            <div class="col-md-1 col-sm"></div>
             <div class="col-md-10">
                 <header>
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                         <div class="container-fluid">
                             <a class="navbar-brand" href="#">AYUDA A UN PELUDO</a>
                             <img src="img/pawBrand.png" width="30" height="30" class="d-inline-block align-text-top">
@@ -47,12 +47,13 @@
                                         <a class="nav-link" href="nosotros.html">Nosotros</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                          Adopción
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Adopción
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                          <li><a class="dropdown-item" href="perro.html">Perros</a></li>
-                                          <li><a class="dropdown-item" href="gato.html">Gatos</a></li>
+                                            <li><a class="dropdown-item" href="perro.html">Perros</a></li>
+                                            <li><a class="dropdown-item" href="gato.html">Gatos</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
@@ -62,6 +63,10 @@
                             </div>
                         </div>
                     </nav>
+                    <div>
+                        <img class="rounded-bottom w-100" src="img/gatos2.jpg" alt="">
+                        <p class="text-over-img">GATOS EN ADOPCIÓN</p>
+                    </div>
                 </header>
             </div>
             <div class="col-md-1"></div>
@@ -70,59 +75,50 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
+            <div class="col-md-10" style="background-color: whitesmoke; background-clip: content-box ;">
+                <div class="row mx-5 mt-3 row-cols-1 row-cols-lg-2 row-cols-xl-3">
+                    <div class="col">
+                        <a href="lucifer.html">
+                            <div class="card inner-box m-3" style="width: 18em;">
+                                <img src="img/lucifer.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5>Lucifer</h5>
+                                    <p class="card-text">Lucifer llegó hacia nosotros hace cinco semanas, es un macho y
+                                        tiene aproximadamente dos años de vida. <br><br>¡Cónocelo!</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <a href="perro.html">
-                                <img src="img/perros.jpg" class="d-block w-100" alt="...">
-                            </a>
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>ADOPTA UN PELUDO CANINO</h5>
-                                <p>Nuestros peludos están esperando por un hogar. ¡Tú puedes dárselos!</p>
+                    <div class="col">
+                        <a href="ginger.html">
+                            <div class="card inner-box m-3" style="width: 18em;">
+                                <img src="img/ginger.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5>Ginger</h5>
+                                    <p class="card-text">Ginger llegó hacia nosotros hace tres meses, es una hembra y
+                                        tiene
+                                        aproximadamente tres años de vida. <br><br>¡Cónocela!</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="gato.html">
-                                <img src="img/gatos.jpg" class="d-block w-100" alt="...">
-                            </a>
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>ADOPTA UN PELUDO FELINO</h5>
-                                <p>Nuestros peludos están esperando por un hogar. ¡Tú puedes dárselos!</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="nosotros.html">
-                                <img src="img/personas.webp" class="d-block w-100" alt="...">
-                            </a>
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>¡CONÓCENOS!</h5>
-                                <p>¿Te interesa la institución? Conoce a las personas trás el proyecto.</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Anterior</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Siguiente</span>
-                    </button>
+                    <div class="col">
+                        <a href="tommy.html">
+                            <div class="card inner-box m-3" style="width: 18em;">
+                                <img src="img/tommy.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5>Tommy</h5>
+                                    <p class="card-text">Tommy llegó hacia nosotros hace cinco meses, es un macho y
+                                        tiene
+                                        aproximadamente un año de vida. <br><br>¡Cónocelo!</p>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-1"></div>
         </div>
+    </div>
+    <div class="col-md-1"></div>
+    </div>
     </div>
 
     <div class="container-fluid">
