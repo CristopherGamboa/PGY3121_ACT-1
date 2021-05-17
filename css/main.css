@@ -46,3 +46,28 @@
     font-size: 20px;
     padding: 20px;
 }
+
+li{
+    text-align: justify;
+}
+
+.ciudadClima{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.temperatura{
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.errorClima{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    font-size: medium;
+}
