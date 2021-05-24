@@ -71,3 +71,7 @@ li{
     color: red;
     font-size: medium;
 }
+
+label.error{
+    color: red;
+}

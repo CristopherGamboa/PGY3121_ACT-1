@@ -99,8 +99,18 @@
                         );
                     }
                 );
+                $("#comentario").on('keyup', function (event) {
+                    var init = $(this).val().length;
+
+                    var caracteres = $("#comentario").val().replace(/(<([^>]+)>)/ig,"").length;
+
+                    $("#caracteres").text("Caracteres: " + caracteres);
+                    
+                });
             }
         );
+
+
     </script>
 </head>
 
@@ -140,6 +150,9 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="contacto.html">Contacto</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="donaciones.html">Donaciones</a>
                                     </li>
                                 </ul>
                             </div>
@@ -202,9 +215,15 @@
                             </select>
 
                             <div class="my-3">
-                                <label for="comentario" class="form-label">Comentario</label>
+                                <div class="row">
+                                    <div class="col-6">
+                                    <label for="comentario" class="form-label">Comentario</label> 
+                                </div>
+                                <div class="col-6">
+                                    <label id="caracteres"></label></div>
+                                </div>
                                 <textarea class="form-control" id="comentario" name="comentario"
-                                    placeholder="Escriba su mensaje aquí" required rows="10"></textarea>
+                                    placeholder="Escriba su mensaje de al menos 50 caracteres aquí." required rows="10"></textarea>
                             </div>
 
                             <input type="hidden" id="url" name="url" value="google.cl" /><br />
@@ -226,12 +245,6 @@
                             </ul>
                         </div>
                     </div>
-                </div>
-
-                <div>
-                    <hr>
-                    <h2 class="text-center">Donaciones</h1>
-                    <p id="clima"></p>
                 </div>
             </div>
         </div>
