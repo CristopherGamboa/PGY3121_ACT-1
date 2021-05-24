@@ -148,7 +148,7 @@
 
         function getLocation() {
             if (navigator.geolocation) {
-                navigator.geolocation.watchPosition(obtenerClima, showError);
+                navigator.geolocation.getCurrentPosition(obtenerClima, showError);
             } else {
                 $('#errorClima').html('La geolocalización no está disponible en su navegador.')
             }
@@ -172,7 +172,7 @@
         function showError(error) {
             switch (error.code) {
                 case error.PERMISSION_DENIED:
-                    errorClima.html("El usuario denegó el acceso a la ubicación.");
+                    errorClima.html("Si quiere obtener la información del clima, debe permitir el acceso a su ubicación.");
                     break;
                 case error.POSITION_UNAVAILABLE:
                     errorClima.html("La información de la ubicación no está disponible.")
